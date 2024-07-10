@@ -1,92 +1,98 @@
+/* General styles for the body */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Font family for the entire document */
+    line-height: 1.6; /* Line height for better readability */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
+/* Styles for the header */
 header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+    background: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 1rem 0; /* Padding for top and bottom */
+    text-align: center; /* Center-align text */
 }
 
 header h1 {
-    margin: 0;
+    margin: 0; /* Remove default margin */
 }
 
+/* Styles for the navigation menu */
 nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center-align the list items */
 }
 
 nav ul li {
-    margin: 0 0.5rem;
+    margin: 0 0.5rem; /* Horizontal margin between list items */
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
 }
 
+/* Styles for the introduction section */
 #intro {
-    text-align: center;
-    padding: 2rem 1rem;
-    background-color: #f4f4f4;
+    text-align: center; /* Center-align text */
+    padding: 2rem 1rem; /* Padding for top, bottom, left, and right */
+    background-color: #f4f4f4; /* Light gray background color */
 }
 
 #intro img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
 }
 
 #intro .button {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
+    display: inline-block; /* Inline block element */
+    margin-top: 1rem; /* Top margin */
+    padding: 0.5rem 1rem; /* Padding for top, bottom, left, and right */
+    background: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 5px; /* Rounded corners */
 }
 
+/* Styles for the features section */
 #features {
-    padding: 2rem 1rem;
-    background-color: #fff;
+    padding: 2rem 1rem; /* Padding for top, bottom, left, and right */
+    background-color: #fff; /* White background color */
 }
 
 .feature {
-    margin-bottom: 1rem;
-    text-align: center;
+    margin-bottom: 1rem; /* Bottom margin */
+    text-align: center; /* Center-align text */
 }
 
 .feature img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
 }
 
+/* Styles for the about section */
 #about {
-    padding: 2rem 1rem;
-    background-color: #f4f4f4;
+    padding: 2rem 1rem; /* Padding for top, bottom, left, and right */
+    background-color: #f4f4f4; /* Light gray background color */
 }
 
 #about ul {
-    list-style: none;
-    padding: 0;
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
 }
 
 #about ul li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem; /* Bottom margin for list items */
 }
 
 #about ul li a {
-    text-decoration: none;
-    color: #333;
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Dark text color */
 }
 
 #about ul li a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline links on hover */
 }
